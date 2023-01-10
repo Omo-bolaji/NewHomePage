@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --max-width: 1440px;
+    --fontFamily: Inter, sans-serif;
+    --secondaryColor:  hsl(236, 13%, 42%);
+    --primaryColor: hsl(5, 85%, 63%);
+}
+body{
+    height: auto;
+    width: 100%;
+    max-width: var(--max-width);
+}
+
+
+/* The styling for the navigation begins here */
+.Section{
+    margin: 50px 150px;
+}
+.link1{
+    float: right;
+    padding-left: 35px;
+    text-decoration: none;
+    font-family: var(--fontFamily);
+    color: var(--secondaryColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+.link2{
+    float: right;
+    padding-left: 35px;
+    text-decoration: none;
+    font-family: var(--fontFamily);
+    color: var(--secondaryColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+.link3{
+    float: right;
+    padding-left: 35px;
+    text-decoration: none;
+    font-family: var(--fontFamily);
+    color: var(--secondaryColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+.link4{
+    float: right;
+    padding-left: 35px;
+    text-decoration: none;
+    font-family: var(--fontFamily);
+    color: var(--secondaryColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+.link5{
+    float: right;
+    text-decoration: none;
+    font-family: var(--fontFamily);
+    color: var(--secondaryColor);
+    font-size: 15px;
+    font-weight: 400;
+}
+.link1:hover {
+    color: var(--primaryColor);
+}
+.link2:hover {
+    color: var(--primaryColor);
+}
+.link3:hover {
+    color: var(--primaryColor);
+}
+.link4:hover {
+    color: var(--primaryColor);
+}
+.link5:hover {
+    color: var(--primaryColor);
+}
+/*the styling for the navigation ends here*/
+
+/*the styling for the Second section section1 starts here*/
+.container{
+    display: flex;
+    margin:  0px 150px;
+    max-width: var(--max-width);
+    height: 100%;
+}
+.desktop-image{
+    width: 680px;
+    height: 280px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.Section1{
+    margin-right: 30px;
+}
+.Text-section{
+    display: flex;
+    max-width: var(--max-width);
+}
+h1{
+    font-weight: 800;
+    font-family: var(--fontFamily);
+    font-size: 50px;
+}
+.text1{
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 290px;
+    position: absolute;
+    right: 0;
+    left: 0px;
+    top: 450px;
+}
+p{
+    font-weight:400;
+    font-family: var(--fontFamily);
+    color:  hsl(236, 13%, 42%);
+    line-height: 25px;
+}
+.text2{
+    width: 360px;
+    margin-top: 10px;
+    margin-left: 120px;
+    position: absolute;
+    right: 0;
+    left: 355px;
+    top: 450px;
+}
+.button{
+    margin-top: 30px;
+    padding: 10px 35px;
+    font-family: var(--fontFamily);
+    font-size: 15px;
+    background-color:hsl(5, 85%, 63%);
+    border: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+/*the styling for the second section1 ends here*/
+
+/*the styling for second section section2 starts here */
+
+.section2child{
+    height: 490px;
+    width: 350px;
+    background-color: hsl(240, 100%, 5%);
+    max-width: var(--max-width);
+}
+h2{
+    color: hsl(35, 77%, 62%);
+    font-family: var(--fontFamily);
+    padding:  20px 18px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.Heading1{
+    color: white;
+    font-size: 18px;
+    font-family: var(--fontFamily);
+    font-weight: 700;
+    padding-left: 18px;
+    padding-right: 40px;
+}
+.Heading1text{
+    font-size: 15px;
+    padding-left: 18px;
+    padding-top: 10px;
+    color: hsl(233, 8%, 79%);
+    font-weight: 400px;
+    padding-bottom: 15px;
+}
+.hr1{
+    width: 300px;
+    margin: 15px 40px 0px 18px;
+    color:hsl(233, 8%, 79%);
+    border-bottom: 1px;
+
+}
+.Heading2{
+    padding-left: 18px;
+    color: white;
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Heading2text{
+   padding-left: 18px;
+   padding-top: 10px;
+   color:hsl(233, 8%, 79%);
+   font-size: 15px;
+   font-weight: 400;
+   width: 330px;
+}
+.hr2{
+    width: 300px;
+    margin: 30px 40px 0px 18px;
+    color:hsl(233, 8%, 79%);
+    border-bottom: 0.5px;  
+}
+.Heading3{
+    padding-left: 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.Heading3text{
+    font-size: 15px;
+    color:hsl(233, 8%, 79%);
+    padding-left: 15px;
+    width: 310px;
+    padding-top: 10px;
+}
+
+
+/*the styling for second section section2 ends here */
+ 
+
+
+
+
+
+
+
+
+
