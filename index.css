@@ -142,6 +142,9 @@ p{
     color: #fff;
     font-weight: 400;
 }
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
 
 
 
@@ -170,6 +173,9 @@ h2{
     padding-left: 18px;
     padding-right: 40px;
 }
+.Heading1:hover{
+    color: hsl(35, 77%, 62%);
+}
 .Heading1text{
     font-size: 15px;
     padding-left: 18px;
@@ -192,6 +198,9 @@ h2{
     font-size: 18px;
     font-weight: 700;
 }
+.Heading2:hover{
+    color: hsl(35, 77%, 62%);
+}
 .Heading2text{
    padding-left: 18px;
    padding-top: 10px;
@@ -213,6 +222,9 @@ h2{
     font-weight: 700;
     padding-top: 30px;
 }
+.Heading3:hover{
+    color: hsl(35, 77%, 62%);
+}
 .Heading3text{
     font-size: 15px;
     color:hsl(233, 8%, 79%);
@@ -224,7 +236,102 @@ h2{
 
 /*the styling for second section section2 ends here */
  
+/* the styling for section three starts here */
+.Section3{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.image1{
+    height: 150px;
+    width: 130px;
+    margin-right: 10px;
+}
+.retro-image{
+    width: 100%;
+    height: 100%;
+}
+.retro-image1{
+    color: hsl(233, 8%, 79%);
+}
+h3{
+    font-family: var(--fontFamily);
+    font-size: 20px;
+    font-weight: 800;
+}
+h3:hover{
+    color: hsl(5, 85%, 63%);
+}
+.image1text{
+    font-family: var(--fontFamily);
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+    width: 230px;
+    margin-top: 10px;
+}
 
+.image2{
+    width: 130px;
+    height: 150px;
+    margin-right: 10px;
+}
+.laptop-image{
+    width: 100%;
+    height: 100%;
+}
+h4{
+    font-size: 50px;
+    color: hsl(233, 8%, 79%);
+    font-family: var(--fontFamily);
+}
+h5{
+    font-family: var(--fontFamily);
+    font-size: 20px;
+    font-weight: 800;
+    width: 240px; 
+    margin-right: 10px;
+}
+h5:hover{
+    color: hsl(5, 85%, 63%);
+}
+.image2text{
+    font-family: var(--fontFamily);
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+    width: 200px;
+    margin-top: 10px;
+}
+.image3{
+    width:130px;
+    height: 150px;
+    margin-right: 10px;
+}
+.gaming-image{
+    width: 100%;
+    height: 100%;
+}
+h6{
+    font-size: 50px;
+    color: hsl(233, 8%, 79%);
+    font-family: var(--fontFamily);  
+}
+.text{
+    font-family: var(--fontFamily);
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+    width: 230px;
+    margin-top: 10px;
+}
+
+
+
+
+/* the styling for section three ends here */
 
 
 
